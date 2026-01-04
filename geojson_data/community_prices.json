@@ -1,0 +1,318 @@
+{
+  "AL MIZHAR FIRST": {
+    "price_sqft": 325,
+    "growth_yoy": 2.0
+  },
+  "AL HEBIAH SIXTH": {
+    "price_sqft": 1301,
+    "growth_yoy": 13.7
+  },
+  "NADD HESSA": {
+    "price_sqft": 961,
+    "growth_yoy": 32.2
+  },
+  "PORT SAEED": {
+    "price_sqft": 1791,
+    "growth_yoy": 22.9
+  },
+  "NAIF": {
+    "price_sqft": 4035,
+    "growth_yoy": 13.4
+  },
+  "AL HEBIAH FOURTH": {
+    "price_sqft": 1430,
+    "growth_yoy": 36.3
+  },
+  "SAIH SHUAIB 2": {
+    "price_sqft": 845,
+    "growth_yoy": 183.9
+  },
+  "SAIH SHUAIB 1": {
+    "price_sqft": 233,
+    "growth_yoy": 37.1
+  },
+  "AL HAMRIYA": {
+    "price_sqft": 1939,
+    "growth_yoy": 9.6
+  },
+  "AL BARSHA SECOND": {
+    "price_sqft": 489,
+    "growth_yoy": 11.1
+  },
+  "AL KARAMA": {
+    "price_sqft": 3098,
+    "growth_yoy": 37.3
+  },
+  "AL HEBIAH FIFTH": {
+    "price_sqft": 1400,
+    "growth_yoy": 6.1
+  },
+  "WADI AL SAFA 7": {
+    "price_sqft": 1182,
+    "growth_yoy": 26.2
+  },
+  "AL WASL": {
+    "price_sqft": 2766,
+    "growth_yoy": 14.7
+  },
+  "JABAL ALI FIRST": {
+    "price_sqft": 1206,
+    "growth_yoy": 19.3
+  },
+  "AL RAS": {
+    "price_sqft": 5893,
+    "growth_yoy": 1.0
+  },
+  "GHADEER AL TAIR": {
+    "price_sqft": 2090,
+    "growth_yoy": 21.3
+  },
+  "AL THANYAH THIRD": {
+    "price_sqft": 1672,
+    "growth_yoy": 17.5
+  },
+  "AL MIZHAR SECOND": {
+    "price_sqft": 252,
+    "growth_yoy": 6.6
+  },
+  "SAIH SHUAIB 4": {
+    "price_sqft": 82,
+    "growth_yoy": -12.0
+  },
+  "AL BARSHA SOUTH FOURTH": {
+    "price_sqft": 1299,
+    "growth_yoy": 12.2
+  },
+  "BURJ KHALIFA": {
+    "price_sqft": 2617,
+    "growth_yoy": 8.7
+  },
+  "JABAL ALI INDUSTRIAL SECOND": {
+    "price_sqft": 1260,
+    "growth_yoy": 20.5
+  },
+  "JABAL ALI INDUSTRIAL FIRST": {
+    "price_sqft": 667,
+    "growth_yoy": -28.5
+  },
+  "SAIH SHUAIB 3": {
+    "price_sqft": 83,
+    "growth_yoy": 3.9
+  },
+  "MADINAT HIND 4": {
+    "price_sqft": 1156,
+    "growth_yoy": 24.1
+  },
+  "AL HEBIAH SECOND": {
+    "price_sqft": 1324,
+    "growth_yoy": 8.5
+  },
+  "AL SATWA": {
+    "price_sqft": 1948,
+    "growth_yoy": 28.2
+  },
+  "AL KIFAF": {
+    "price_sqft": 2020,
+    "growth_yoy": 11.6
+  },
+  "AL HEBIAH FIRST": {
+    "price_sqft": 1464,
+    "growth_yoy": 66.9
+  },
+  "AL SAFOUH SECOND": {
+    "price_sqft": 3063,
+    "growth_yoy": 5.9
+  },
+  "AL BARSHA THIRD": {
+    "price_sqft": 628,
+    "growth_yoy": 8.0
+  },
+  "AL JADAF": {
+    "price_sqft": 1831,
+    "growth_yoy": 9.4
+  },
+  "AL THANYAH FIFTH": {
+    "price_sqft": 1668,
+    "growth_yoy": 15.7
+  },
+  "MARSA DUBAI": {
+    "price_sqft": 2765,
+    "growth_yoy": -12.6
+  },
+  "HESSYAN FIRST": {
+    "price_sqft": 687,
+    "growth_yoy": 8.5
+  },
+  "AL RAFFA": {
+    "price_sqft": 1899,
+    "growth_yoy": 35.0
+  },
+  "AL BARAHA": {
+    "price_sqft": 1728,
+    "growth_yoy": 18.0
+  },
+  "ME'AISEM SECOND": {
+    "price_sqft": 1356,
+    "growth_yoy": 17.0
+  },
+  "AL BARSHA FIRST": {
+    "price_sqft": 1527,
+    "growth_yoy": -2.7
+  },
+  "AL QUSAIS": {
+    "price_sqft": 1065,
+    "growth_yoy": -34.1
+  },
+  "WADI AL SAFA 2": {
+    "price_sqft": 1143,
+    "growth_yoy": 176.7
+  },
+  "BUSINESS BAY": {
+    "price_sqft": 2355,
+    "growth_yoy": 12.2
+  },
+  "WARSAN FOURTH": {
+    "price_sqft": 777,
+    "growth_yoy": 22.6
+  },
+  "AL RASHIDIYA": {
+    "price_sqft": 304,
+    "growth_yoy": 4.3
+  },
+  "AL TWAR FOURTH": {
+    "price_sqft": 298,
+    "growth_yoy": 29.4
+  },
+  "WADI AL SAFA 3": {
+    "price_sqft": 1417,
+    "growth_yoy": 4.4
+  },
+  "AL YUFRAH 1": {
+    "price_sqft": 1196,
+    "growth_yoy": 23.9
+  },
+  "AL MERKADH": {
+    "price_sqft": 2022,
+    "growth_yoy": 11.6
+  },
+  "MIRDIF": {
+    "price_sqft": 1079,
+    "growth_yoy": 6.7
+  },
+  "MADINAT AL MATAAR": {
+    "price_sqft": 1361,
+    "growth_yoy": 37.1
+  },
+  "DUBAI INVESTMENT PARK FIRST": {
+    "price_sqft": 860,
+    "growth_yoy": 10.4
+  },
+  "MANKHOOL": {
+    "price_sqft": 1770,
+    "growth_yoy": 26.3
+  },
+  "AL THANYAH FIRST": {
+    "price_sqft": 1879,
+    "growth_yoy": 65.1
+  },
+  "AL TWAR FIRST": {
+    "price_sqft": 277,
+    "growth_yoy": 24.2
+  },
+  "AL MANARA": {
+    "price_sqft": 1733,
+    "growth_yoy": 20.1
+  },
+  "HOR AL ANZ": {
+    "price_sqft": 1159,
+    "growth_yoy": 31.5
+  },
+  "WADI AL SAFA 5": {
+    "price_sqft": 1218,
+    "growth_yoy": 18.4
+  },
+  "ME'AISEM FIRST": {
+    "price_sqft": 1249,
+    "growth_yoy": 7.1
+  },
+  "DUBAI INVESTMENT PARK SECOND": {
+    "price_sqft": 1445,
+    "growth_yoy": 381.0
+  },
+  "TRADE CENTER SECOND": {
+    "price_sqft": 2703,
+    "growth_yoy": 42.5
+  },
+  "ABU HAIL": {
+    "price_sqft": 522,
+    "growth_yoy": -7.3
+  },
+  "AL KHEERAN": {
+    "price_sqft": 1451,
+    "growth_yoy": 23.2
+  },
+  "WADI AL SAFA 6": {
+    "price_sqft": 1159,
+    "growth_yoy": 26.9
+  },
+  "TRADE CENTER FIRST": {
+    "price_sqft": 8855,
+    "growth_yoy": 275.3
+  },
+  "WADI AL SAFA 4": {
+    "price_sqft": 1542,
+    "growth_yoy": 71.4
+  },
+  "HOR AL ANZ EAST": {
+    "price_sqft": 370,
+    "growth_yoy": -57.0
+  },
+  "AL HEBIAH THIRD": {
+    "price_sqft": 1404,
+    "growth_yoy": 13.5
+  },
+  "AL BARSHA SOUTH FIFTH": {
+    "price_sqft": 1406,
+    "growth_yoy": 9.3
+  },
+  "AL TWAR THIRD": {
+    "price_sqft": 245,
+    "growth_yoy": -1.0
+  },
+  "AL SAFOUH FIRST": {
+    "price_sqft": 2319,
+    "growth_yoy": 9.9
+  },
+  "HADAEQ SHEIKH MOHAMMED BIN RASHID": {
+    "price_sqft": 2266,
+    "growth_yoy": 17.5
+  },
+  "WORLD ISLANDS": {
+    "price_sqft": 3545,
+    "growth_yoy": 8.0
+  },
+  "AL MUTEENA": {
+    "price_sqft": 913,
+    "growth_yoy": 15.4
+  },
+  "AL TWAR SECOND": {
+    "price_sqft": 277,
+    "growth_yoy": null
+  },
+  "AL MIZHAR FOURTH": {
+    "price_sqft": 313,
+    "growth_yoy": null
+  },
+  "AL GARHOUD": {
+    "price_sqft": 662,
+    "growth_yoy": null
+  },
+  "AL NAHDA SECOND": {
+    "price_sqft": 1628,
+    "growth_yoy": null
+  },
+  "MUHAISANAH FOURTH": {
+    "price_sqft": 1307,
+    "growth_yoy": null
+  }
+}

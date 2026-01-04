@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Azizi Venice 14",
+    "lat": 24.91877,
+    "lng": 55.180175,
+    "value": "AED 13.3B",
+    "units": 3438,
+    "status": "ACTIVE",
+    "area": "Madinat Al Mataar"
+  },
+  {
+    "name": "Binghatti Skyrise",
+    "lat": 25.187645,
+    "lng": 55.279923,
+    "value": "AED 8.4B",
+    "units": 3333,
+    "status": "NOT_STARTED",
+    "area": "Business Bay"
+  },
+  {
+    "name": "Sobha Orbis",
+    "lat": 25.049897,
+    "lng": 55.239221,
+    "value": "AED 8.3B",
+    "units": 2995,
+    "status": "ACTIVE",
+    "area": "Al Hebiah First"
+  },
+  {
+    "name": "Azizi Venice 6",
+    "lat": 24.917834,
+    "lng": 55.181224,
+    "value": "AED 11.5B",
+    "units": 2967,
+    "status": "NOT_STARTED",
+    "area": "Madinat Al Mataar"
+  },
+  {
+    "name": "Seven City JLT",
+    "lat": 25.061942,
+    "lng": 55.153286,
+    "value": "AED 7.3B",
+    "units": 2666,
+    "status": "ACTIVE",
+    "area": "Al Thanyah Fifth"
+  },
+  {
+    "name": "Sobha Central Phase I",
+    "lat": 25.032105,
+    "lng": 55.142275,
+    "value": "AED 5.0B",
+    "units": 2383,
+    "status": "NOT_STARTED",
+    "area": "Jabal Ali First"
+  },
+  {
+    "name": "Azizi Venice 7",
+    "lat": 24.918703,
+    "lng": 55.182268,
+    "value": "AED 9.1B",
+    "units": 2358,
+    "status": "NOT_STARTED",
+    "area": "Madinat Al Mataar"
+  },
+  {
+    "name": "Sobha Solis",
+    "lat": 25.048602,
+    "lng": 55.239721,
+    "value": "AED 6.5B",
+    "units": 2341,
+    "status": "ACTIVE",
+    "area": "Al Hebiah First"
+  },
+  {
+    "name": "Sobha Central Phase II",
+    "lat": 25.030169,
+    "lng": 55.143999,
+    "value": "AED 4.5B",
+    "units": 2143,
+    "status": "NOT_STARTED",
+    "area": "Jabal Ali First"
+  },
+  {
+    "name": "Azizi Venice 13",
+    "lat": 24.919965,
+    "lng": 55.180317,
+    "value": "AED 7.3B",
+    "units": 1888,
+    "status": "ACTIVE",
+    "area": "Madinat Al Mataar"
+  },
+  {
+    "name": "Azizi Venice 15",
+    "lat": 24.921082,
+    "lng": 55.180731,
+    "value": "AED 7.2B",
+    "units": 1855,
+    "status": "NOT_STARTED",
+    "area": "Madinat Al Mataar"
+  },
+  {
+    "name": "Binghatti Elite",
+    "lat": 25.017749,
+    "lng": 55.183299,
+    "value": "AED 4.6B",
+    "units": 1745,
+    "status": "NOT_STARTED",
+    "area": "Me'Aisem First"
+  }
+]

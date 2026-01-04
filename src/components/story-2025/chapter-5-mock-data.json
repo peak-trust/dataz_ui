@@ -1,0 +1,171 @@
+{
+    "meta": {
+        "title": "The Off-Plan Revolution",
+        "subtitle": "62% of 2025 sales were properties still under construction",
+        "duration": "25-35 seconds"
+    },
+    "marketSplit": {
+        "offPlan": 62,
+        "existing": 38,
+        "offPlanTransactions": 131161,
+        "existingTransactions": 79384,
+        "offPlanValue": "AED 285.8B",
+        "existingValue": "AED 384.3B",
+        "totalValue": "AED 670B",
+        "growth": "+20.8%",
+        "valueGrowth": "+26.3%"
+    },
+    "insights": {
+        "trust": {
+            "title": "The Trust Factor",
+            "stat": "62%",
+            "description": "of buyers chose projects still under construction",
+            "subtext": "Developer reputation drives off-plan confidence",
+            "topDevelopersShare": "Top 5 developers: 27% of all sales",
+            "topDeveloper": "Emaar leads with 15.9% market share"
+        },
+        "price": {
+            "title": "The Price Reality",
+            "offPlanAvg": 2030,
+            "existingAvg": 1590,
+            "premium": 440,
+            "premiumPct": 28,
+            "currency": "AED",
+            "unit": "sqft",
+            "note": "Off-plan commands premium for new construction & amenities"
+        },
+        "launches": {
+            "title": "Top Off-Plan Projects 2025",
+            "projects": [
+                {
+                    "name": "Binghatti Skyrise",
+                    "units": 2677,
+                    "area": "Business Bay",
+                    "value": "AED 4.43B"
+                },
+                {
+                    "name": "Sobha Solis",
+                    "units": 2038,
+                    "area": "Dubai South",
+                    "value": "AED 2.51B"
+                },
+                {
+                    "name": "Binghatti Elite",
+                    "units": 1688,
+                    "area": "JVC",
+                    "value": "AED 1.08B"
+                },
+                {
+                    "name": "Skyvue",
+                    "units": 1613,
+                    "area": "Dubai Creek",
+                    "value": "AED 3.64B"
+                },
+                {
+                    "name": "Sobha Orbis",
+                    "units": 1520,
+                    "area": "Dubai South",
+                    "value": "AED 1.98B"
+                }
+            ]
+        }
+    },
+    "timeSeriesData": [
+        {
+            "month": "Jan",
+            "offPlan": 52,
+            "existing": 48
+        },
+        {
+            "month": "Feb",
+            "offPlan": 56,
+            "existing": 44
+        },
+        {
+            "month": "Mar",
+            "offPlan": 59,
+            "existing": 41
+        },
+        {
+            "month": "Apr",
+            "offPlan": 57,
+            "existing": 43
+        },
+        {
+            "month": "May",
+            "offPlan": 55,
+            "existing": 45
+        },
+        {
+            "month": "Jun",
+            "offPlan": 59,
+            "existing": 41
+        },
+        {
+            "month": "Jul",
+            "offPlan": 63,
+            "existing": 37
+        },
+        {
+            "month": "Aug",
+            "offPlan": 70,
+            "existing": 30
+        },
+        {
+            "month": "Sep",
+            "offPlan": 71,
+            "existing": 29
+        },
+        {
+            "month": "Oct",
+            "offPlan": 66,
+            "existing": 34
+        },
+        {
+            "month": "Nov",
+            "offPlan": 68,
+            "existing": 32
+        },
+        {
+            "month": "Dec",
+            "offPlan": 68,
+            "existing": 32
+        }
+    ],
+    "paymentPlans": {
+        "offPlan": [
+            {
+                "milestone": "Down Payment",
+                "percentage": 10,
+                "time": "Day 0"
+            },
+            {
+                "milestone": "Construction",
+                "percentage": 40,
+                "time": "Year 1-3"
+            },
+            {
+                "milestone": "Handover",
+                "percentage": 50,
+                "time": "Completion"
+            }
+        ],
+        "existing": [
+            {
+                "milestone": "Down Payment",
+                "percentage": 20,
+                "time": "Day 0"
+            },
+            {
+                "milestone": "Mortgage/Cash",
+                "percentage": 80,
+                "time": "Day 30-60"
+            }
+        ]
+    },
+    "dataSource": {
+        "source": "Dubai Land Department (DLD)",
+        "lastUpdated": "January 2026",
+        "methodology": "Off-plan identified from DLD registration category"
+    }
+}

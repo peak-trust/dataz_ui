@@ -1,0 +1,14 @@
+"use client";
+
+import { HeroSection } from "@/components/story-2025/hero-section";
+
+export default function TestHeroPage() {
+    return (
+        <main className="min-h-screen bg-black text-white">
+            <HeroSection />
+            <div className="h-screen flex items-center justify-center">
+                <p className="text-gray-500">Scroll down to test exit animations...</p>
+            </div>
+        </main>
+    );
+}

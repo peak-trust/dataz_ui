@@ -1,0 +1,1024 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.212064,
+              25.064048608029594
+            ],
+            [
+              55.21636283451494,
+              25.061800304014795
+            ],
+            [
+              55.21636283451494,
+              25.057303695985205
+            ],
+            [
+              55.212064,
+              25.055055391970406
+            ],
+            [
+              55.20776516548506,
+              25.057303695985205
+            ],
+            [
+              55.20776516548506,
+              25.061800304014795
+            ],
+            [
+              55.212064,
+              25.064048608029594
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "JVC",
+        "official_name": "Al Barsha South Fourth",
+        "height": 4284,
+        "color": "#06B6D4",
+        "label": "AED 14.3B",
+        "growth_txt": "+2.3%",
+        "transactions": "12,597",
+        "yield": "6.14%",
+        "top_developer": "Binghatti",
+        "avg_price": "AED 1.1M",
+        "top_project": "Binghatti Circle "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.279923,
+              25.192141608029594
+            ],
+            [
+              55.28422634367334,
+              25.189893304014795
+            ],
+            [
+              55.28422634367334,
+              25.185396695985204
+            ],
+            [
+              55.279923,
+              25.183148391970406
+            ],
+            [
+              55.275619656326654,
+              25.185396695985204
+            ],
+            [
+              55.275619656326654,
+              25.189893304014795
+            ],
+            [
+              55.279923,
+              25.192141608029594
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Business Bay",
+        "height": 6921,
+        "color": "#8B5CF6",
+        "label": "AED 23.1B",
+        "growth_txt": "+27.7%",
+        "transactions": "8,717",
+        "yield": "4.2%",
+        "top_developer": "Binghatti",
+        "avg_price": "AED 1.7M",
+        "top_project": "Binghatti Skyrise"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.363957,
+              25.087225608029595
+            ],
+            [
+              55.368256648104456,
+              25.084977304014796
+            ],
+            [
+              55.368256648104456,
+              25.080480695985205
+            ],
+            [
+              55.363957,
+              25.078232391970406
+            ],
+            [
+              55.35965735189554,
+              25.080480695985205
+            ],
+            [
+              55.35965735189554,
+              25.084977304014796
+            ],
+            [
+              55.363957,
+              25.087225608029595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Tilal Al Ghaf",
+        "official_name": "Wadi Al Safa 5",
+        "height": 3963.0000000000005,
+        "color": "#10B981",
+        "label": "AED 13.2B",
+        "growth_txt": "+61.4%",
+        "transactions": "9,219",
+        "yield": "3.76%",
+        "top_developer": "Samana Developers",
+        "avg_price": "AED 0.9M",
+        "top_project": "Peace Lagoons by Peace Homes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.180175,
+              24.923266608029593
+            ],
+            [
+              55.18446891429121,
+              24.921018304014794
+            ],
+            [
+              55.18446891429121,
+              24.916521695985203
+            ],
+            [
+              55.180175,
+              24.914273391970404
+            ],
+            [
+              55.17588108570879,
+              24.916521695985203
+            ],
+            [
+              55.17588108570879,
+              24.921018304014794
+            ],
+            [
+              55.180175,
+              24.923266608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dubai South",
+        "official_name": "Madinat Al Mataar",
+        "height": 4956,
+        "color": "#8B5CF6",
+        "label": "AED 16.5B",
+        "growth_txt": "+42.1%",
+        "transactions": "8,188",
+        "yield": "3.04%",
+        "top_developer": "Azizi Developments",
+        "avg_price": "AED 1.9M",
+        "top_project": "Terra Heights"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.292575,
+              25.174281608029595
+            ],
+            [
+              55.296877713103655,
+              25.172033304014796
+            ],
+            [
+              55.296877713103655,
+              25.167536695985206
+            ],
+            [
+              55.292575,
+              25.165288391970407
+            ],
+            [
+              55.288272286896344,
+              25.167536695985206
+            ],
+            [
+              55.288272286896344,
+              25.172033304014796
+            ],
+            [
+              55.292575,
+              25.174281608029595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Sobha Hartland",
+        "official_name": "Al Merkadh",
+        "height": 402,
+        "color": "#F59E0B",
+        "label": "AED 1.3B",
+        "growth_txt": "-86.7%",
+        "transactions": "641",
+        "yield": "5.32%",
+        "top_developer": "Sobha Realty",
+        "avg_price": "AED 2.6M",
+        "top_project": "Sobha Hartland - Crest Grande"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.267355,
+              25.109950608029596
+            ],
+            [
+              55.27165544680971,
+              25.107702304014797
+            ],
+            [
+              55.27165544680971,
+              25.103205695985206
+            ],
+            [
+              55.267355,
+              25.100957391970407
+            ],
+            [
+              55.263054553190294,
+              25.103205695985206
+            ],
+            [
+              55.263054553190294,
+              25.107702304014797
+            ],
+            [
+              55.267355,
+              25.109950608029596
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "MBR City",
+        "official_name": "Hadaeq Sheikh Mohammed Bin Rashid",
+        "height": 2763.0000000000005,
+        "color": "#F59E0B",
+        "label": "AED 9.2B",
+        "growth_txt": "-45.7%",
+        "transactions": "3,017",
+        "yield": "5.85%",
+        "top_developer": "Ellington Properties",
+        "avg_price": "AED 2.4M",
+        "top_project": "Rosehill"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.130803,
+              25.100014608029593
+            ],
+            [
+              55.1351030974739,
+              25.097766304014794
+            ],
+            [
+              55.1351030974739,
+              25.093269695985203
+            ],
+            [
+              55.130803,
+              25.091021391970404
+            ],
+            [
+              55.1265029025261,
+              25.093269695985203
+            ],
+            [
+              55.1265029025261,
+              25.097766304014794
+            ],
+            [
+              55.130803,
+              25.100014608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dubai Marina",
+        "official_name": "Marsa Dubai",
+        "height": 4728,
+        "color": "#06B6D4",
+        "label": "AED 15.8B",
+        "growth_txt": "+5.9%",
+        "transactions": "3,560",
+        "yield": "3.66%",
+        "top_developer": "Emaar Properties",
+        "avg_price": "AED 1.8M",
+        "top_project": "ROVE HOME DUBAI MARINA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.282469,
+              25.268529608029596
+            ],
+            [
+              55.286775047458384,
+              25.266281304014797
+            ],
+            [
+              55.286775047458384,
+              25.261784695985206
+            ],
+            [
+              55.282469,
+              25.259536391970407
+            ],
+            [
+              55.278162952541614,
+              25.261784695985206
+            ],
+            [
+              55.278162952541614,
+              25.266281304014797
+            ],
+            [
+              55.282469,
+              25.268529608029596
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Palm Jumeirah",
+        "official_name": "Madinat Dubai Almelaheyah",
+        "height": 4809,
+        "color": "#06B6D4",
+        "label": "AED 16.0B",
+        "growth_txt": "+7.1%",
+        "transactions": "5,278",
+        "yield": "6.9%",
+        "top_developer": "DAMAC Properties",
+        "avg_price": "AED 2.8M",
+        "top_project": "CHELSEA RESIDENCES 2 BY DAMAC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.142275,
+              25.036601608029596
+            ],
+            [
+              55.14657287234175,
+              25.034353304014797
+            ],
+            [
+              55.14657287234175,
+              25.029856695985206
+            ],
+            [
+              55.142275,
+              25.027608391970407
+            ],
+            [
+              55.137977127658246,
+              25.029856695985206
+            ],
+            [
+              55.137977127658246,
+              25.034353304014797
+            ],
+            [
+              55.142275,
+              25.036601608029596
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Jebel Ali",
+        "official_name": "Jabal Ali First",
+        "height": 2475,
+        "color": "#8B5CF6",
+        "label": "AED 8.3B",
+        "growth_txt": "+42.6%",
+        "transactions": "5,115",
+        "yield": "6.07%",
+        "top_developer": "Sobha Realty",
+        "avg_price": "AED 2.3M",
+        "top_project": "Sobha Central Phase I"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.234578,
+              25.066632608029593
+            ],
+            [
+              55.23887692517181,
+              25.064384304014794
+            ],
+            [
+              55.23887692517181,
+              25.059887695985203
+            ],
+            [
+              55.234578,
+              25.057639391970405
+            ],
+            [
+              55.23027907482819,
+              25.059887695985203
+            ],
+            [
+              55.23027907482819,
+              25.064384304014794
+            ],
+            [
+              55.234578,
+              25.066632608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Al Furjan",
+        "official_name": "Al Barshaa South Third",
+        "height": 798,
+        "color": "#F59E0B",
+        "label": "AED 2.7B",
+        "growth_txt": "-33.6%",
+        "transactions": "2,380",
+        "yield": "9.25%",
+        "top_developer": "Vincitore",
+        "avg_price": "AED 0.9M",
+        "top_project": "Floarea  Grande"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.355,
+              25.179496608029595
+            ],
+            [
+              55.359302897163445,
+              25.177248304014796
+            ],
+            [
+              55.359302897163445,
+              25.172751695985205
+            ],
+            [
+              55.355,
+              25.170503391970406
+            ],
+            [
+              55.35069710283655,
+              25.172751695985205
+            ],
+            [
+              55.35069710283655,
+              25.177248304014796
+            ],
+            [
+              55.355,
+              25.179496608029595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Dubai Creek Harbour",
+        "official_name": "Bukadra",
+        "height": 3063.0000000000005,
+        "color": "#06B6D4",
+        "label": "AED 10.2B",
+        "growth_txt": "+7.7%",
+        "transactions": "4,472",
+        "yield": "3.5%",
+        "top_developer": "Skyhills / Sobha",
+        "avg_price": "AED 2.3M",
+        "top_project": "Skyvue"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.345,
+              25.140496608029594
+            ],
+            [
+              55.34930152193004,
+              25.138248304014795
+            ],
+            [
+              55.34930152193004,
+              25.133751695985204
+            ],
+            [
+              55.345,
+              25.131503391970405
+            ],
+            [
+              55.34069847806996,
+              25.133751695985204
+            ],
+            [
+              55.34069847806996,
+              25.138248304014795
+            ],
+            [
+              55.345,
+              25.140496608029594
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Ras Al Khor",
+        "official_name": "Al Khairan First",
+        "height": 1920,
+        "color": "#F59E0B",
+        "label": "AED 6.4B",
+        "growth_txt": "-20.3%",
+        "transactions": "2,343",
+        "yield": "5.05%",
+        "top_developer": "Emaar Properties",
+        "avg_price": "AED 2.8M",
+        "top_project": "Albero"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.187678,
+              25.047791608029595
+            ],
+            [
+              55.19197626444368,
+              25.045543304014796
+            ],
+            [
+              55.19197626444368,
+              25.041046695985205
+            ],
+            [
+              55.187678,
+              25.038798391970406
+            ],
+            [
+              55.183379735556315,
+              25.041046695985205
+            ],
+            [
+              55.183379735556315,
+              25.045543304014796
+            ],
+            [
+              55.187678,
+              25.047791608029595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "JVC West",
+        "official_name": "Al Barsha South Fifth",
+        "height": 1446,
+        "color": "#10B981",
+        "label": "AED 4.8B",
+        "growth_txt": "+63.8%",
+        "transactions": "4,324",
+        "yield": "6.42%",
+        "top_developer": "Binghatti",
+        "avg_price": "AED 1.3M",
+        "top_project": "Binghatti Flare 01"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.232393,
+              25.076388608029593
+            ],
+            [
+              55.236692267563946,
+              25.074140304014794
+            ],
+            [
+              55.236692267563946,
+              25.069643695985203
+            ],
+            [
+              55.232393,
+              25.067395391970404
+            ],
+            [
+              55.22809373243606,
+              25.069643695985203
+            ],
+            [
+              55.22809373243606,
+              25.074140304014794
+            ],
+            [
+              55.232393,
+              25.076388608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "JVT",
+        "official_name": "Al Barshaa South Second",
+        "height": 1941,
+        "color": "#10B981",
+        "label": "AED 6.5B",
+        "growth_txt": "+110.6%",
+        "transactions": "5,106",
+        "yield": "8.83%",
+        "top_developer": "Binghatti",
+        "avg_price": "AED 1.2M",
+        "top_project": "Binghatti Hillviews"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.153286,
+              25.066438608029593
+            ],
+            [
+              55.157584918365096,
+              25.064190304014794
+            ],
+            [
+              55.157584918365096,
+              25.059693695985203
+            ],
+            [
+              55.153286,
+              25.057445391970404
+            ],
+            [
+              55.14898708163491,
+              25.059693695985203
+            ],
+            [
+              55.14898708163491,
+              25.064190304014794
+            ],
+            [
+              55.153286,
+              25.066438608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "The Greens",
+        "official_name": "Al Thanyah Fifth",
+        "height": 1713,
+        "color": "#F59E0B",
+        "label": "AED 5.7B",
+        "growth_txt": "-14.8%",
+        "transactions": "2,388",
+        "yield": "5.06%",
+        "top_developer": "Danube Properties",
+        "avg_price": "AED 1.8M",
+        "top_project": "Diamondz By Danube "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.323662,
+              25.120402608029593
+            ],
+            [
+              55.32796281448822,
+              25.118154304014794
+            ],
+            [
+              55.32796281448822,
+              25.113657695985204
+            ],
+            [
+              55.323662,
+              25.111409391970405
+            ],
+            [
+              55.31936118551178,
+              25.113657695985204
+            ],
+            [
+              55.31936118551178,
+              25.118154304014794
+            ],
+            [
+              55.323662,
+              25.120402608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DAMAC Hills",
+        "official_name": "Wadi Al Safa 3",
+        "height": 2346,
+        "color": "#10B981",
+        "label": "AED 7.8B",
+        "growth_txt": "+78.1%",
+        "transactions": "4,188",
+        "yield": "3.25%",
+        "top_developer": "Samana Developers",
+        "avg_price": "AED 1.2M",
+        "top_project": "Samana Barari Lagoons"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.209792,
+              24.980041608029595
+            ],
+            [
+              55.21408789405797,
+              24.977793304014796
+            ],
+            [
+              55.21408789405797,
+              24.973296695985205
+            ],
+            [
+              55.209792,
+              24.971048391970406
+            ],
+            [
+              55.20549610594203,
+              24.973296695985205
+            ],
+            [
+              55.20549610594203,
+              24.977793304014796
+            ],
+            [
+              55.209792,
+              24.980041608029595
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DIP",
+        "official_name": "Dubai Investment Park Second",
+        "height": 2748,
+        "color": "#10B981",
+        "label": "AED 9.2B",
+        "growth_txt": "+222.6%",
+        "transactions": "5,232",
+        "yield": "3.48%",
+        "top_developer": "DAMAC Properties",
+        "avg_price": "AED 1.3M",
+        "top_project": "DAMAC RIVERSIDE VIEWS - CAPRI 1 "
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.422689,
+              24.998098608029593
+            ],
+            [
+              55.426985524979884,
+              24.995850304014795
+            ],
+            [
+              55.426985524979884,
+              24.991353695985204
+            ],
+            [
+              55.422689,
+              24.989105391970405
+            ],
+            [
+              55.41839247502011,
+              24.991353695985204
+            ],
+            [
+              55.41839247502011,
+              24.995850304014795
+            ],
+            [
+              55.422689,
+              24.998098608029593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "The Valley",
+        "official_name": "Al Yufrah 1",
+        "height": 2550,
+        "color": "#F59E0B",
+        "label": "AED 8.5B",
+        "growth_txt": "-20.5%",
+        "transactions": "2,244",
+        "yield": "3.55%",
+        "top_developer": "Emaar Properties",
+        "avg_price": "AED 3.6M",
+        "top_project": "The Valley - Vindera"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.239221,
+              25.054393608029596
+            ],
+            [
+              55.24351949589079,
+              25.052145304014797
+            ],
+            [
+              55.24351949589079,
+              25.047648695985206
+            ],
+            [
+              55.239221,
+              25.045400391970407
+            ],
+            [
+              55.234922504109214,
+              25.047648695985206
+            ],
+            [
+              55.234922504109214,
+              25.052145304014797
+            ],
+            [
+              55.239221,
+              25.054393608029596
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Expo City",
+        "official_name": "Al Hebiah First",
+        "height": 2025,
+        "color": "#10B981",
+        "label": "AED 6.8B",
+        "growth_txt": "+254.2%",
+        "transactions": "4,948",
+        "yield": "4.85%",
+        "top_developer": "Sobha Realty",
+        "avg_price": "AED 1.2M",
+        "top_project": "Sobha Solis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              55.185,
+              25.059496608029594
+            ],
+            [
+              55.18929867484346,
+              25.057248304014795
+            ],
+            [
+              55.18929867484346,
+              25.052751695985204
+            ],
+            [
+              55.185,
+              25.050503391970405
+            ],
+            [
+              55.18070132515655,
+              25.052751695985204
+            ],
+            [
+              55.18070132515655,
+              25.057248304014795
+            ],
+            [
+              55.185,
+              25.059496608029594
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "name": "DAMAC Hills 2",
+        "official_name": "Al Yelayiss 2",
+        "height": 627,
+        "color": "#F59E0B",
+        "label": "AED 2.1B",
+        "growth_txt": "-24.4%",
+        "transactions": "1,536",
+        "yield": "6.86%",
+        "top_developer": "N/A",
+        "avg_price": "AED 1.3M",
+        "top_project": "The Baltimore"
+      }
+    }
+  ]
+}

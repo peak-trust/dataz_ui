@@ -1,0 +1,267 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-elevated: var(--background-elevated);
+  --color-background-elevated-2: var(--background-elevated-2);
+  --color-background-elevated-3: var(--background-elevated-3);
+
+  --color-foreground: var(--foreground);
+  --color-foreground-secondary: var(--foreground-secondary);
+  --color-foreground-tertiary: var(--foreground-tertiary);
+  --color-foreground-disabled: var(--foreground-disabled);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-light: var(--primary-light);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-foreground: #FFFFFF;
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+
+  --color-border: var(--border);
+  --color-border-hover: var(--border-hover);
+  --color-border-focus: var(--border-focus);
+
+  --color-success: var(--success);
+  --color-success-bg: var(--success-bg);
+  --color-warning: var(--warning);
+  --color-warning-bg: var(--warning-bg);
+  --color-error: var(--error);
+  --color-error-bg: var(--error-bg);
+  --color-info: var(--info);
+  --color-info-bg: var(--info-bg);
+
+  --color-chart-blue: var(--chart-blue);
+  --color-chart-green: var(--chart-green);
+  --color-chart-amber: var(--chart-amber);
+  --color-chart-purple: var(--chart-purple);
+  --color-chart-pink: var(--chart-pink);
+  --color-chart-teal: var(--chart-teal);
+
+  /* === 2025 Enhanced Semantic Tokens === */
+  --color-surface-base: var(--surface-base);
+  --color-surface-elevated: var(--surface-elevated);
+  --color-surface-elevated-2: var(--surface-elevated-2);
+  --color-surface-glass: var(--surface-glass);
+
+  --color-accent-cyan: var(--accent-cyan);
+  --color-accent-purple: var(--accent-purple);
+  --color-accent-emerald: var(--accent-emerald);
+  --color-accent-amber: var(--accent-amber);
+  --color-accent-pink: var(--accent-pink);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-tertiary: var(--text-tertiary);
+  --color-text-quaternary: var(--text-quaternary);
+
+  --color-interactive-hover: var(--interactive-hover);
+  --color-interactive-active: var(--interactive-active);
+
+  --color-border-subtle: var(--border-subtle);
+  --color-border-default: var(--border-default);
+  --color-border-emphasized: var(--border-emphasized);
+  --color-border-accent: var(--border-accent);
+
+  --font-sans: var(--font-inter);
+  --font-mono: var(--font-mono);
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-2xl: 24px;
+  --radius-full: 9999px;
+  --radius: 6px;
+  /* Base radius */
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from {
+      height: 0;
+    }
+
+    to {
+      height: var(--radix-accordion-content-height);
+    }
+  }
+
+  @keyframes accordion-up {
+    from {
+      height: var(--radix-accordion-content-height);
+    }
+
+    to {
+      height: 0;
+    }
+  }
+}
+
+:root {
+  /* Default to Dark Mode as requested */
+  --background: #121212;
+  --background-elevated: #1E1E1E;
+  --background-elevated-2: #2C2C2C;
+  --background-elevated-3: #383838;
+
+  --foreground: #E3E3E3;
+  --foreground-secondary: #A0A0A0;
+  --foreground-tertiary: #737373;
+  --foreground-disabled: #4A4A4A;
+
+  --primary: #5B93FF;
+  --primary-hover: #4A7FE0;
+  --primary-light: #7DA8FF;
+  --primary-dark: #3D6FCC;
+
+  --accent: #8C99AD;
+  --accent-hover: #A0AAB8;
+
+  --border: #2D2D2D;
+  --border-hover: #3E3E3E;
+  --border-focus: #5B93FF;
+
+  --success: #10B981;
+  --success-bg: #064E3B;
+  --warning: #F59E0B;
+  --warning-bg: #78350F;
+  --error: #F87171;
+  --error-bg: #7F1D1D;
+  --info: #5B93FF;
+  --info-bg: #1E3A5F;
+
+  --chart-blue: #5B93FF;
+  --chart-green: #10B981;
+  --chart-amber: #F59E0B;
+  --chart-purple: #A78BFA;
+  --chart-pink: #EC4899;
+  --chart-teal: #14B8A6;
+
+  /* === 2025 Enhanced Semantic Tokens === */
+
+  /* Surface Colors - for cards, panels, elevated elements */
+  --surface-base: #161618;
+  --surface-elevated: #1c1c1e;
+  --surface-elevated-2: #252528;
+  --surface-glass: rgba(255, 255, 255, 0.03);
+
+  /* Accent Colors - Modern, AI-first palette */
+  --accent-cyan: #06b6d4;
+  --accent-purple: #a855f7;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-pink: #ec4899;
+
+  /* Text Hierarchy - Optimized contrast for dark mode */
+  --text-primary: #f5f5f7;
+  --text-secondary: #98989d;
+  --text-tertiary: #636366;
+  --text-quaternary: #48484a;
+
+  /* Interactive States */
+  --interactive-hover: rgba(91, 147, 255, 0.1);
+  --interactive-active: rgba(91, 147, 255, 0.2);
+
+  /* Borders - Subtle, layered approach */
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --border-default: rgba(255, 255, 255, 0.08);
+  --border-emphasized: rgba(255, 255, 255, 0.12);
+  --border-accent: rgba(91, 147, 255, 0.3);
+
+  /* Compatibility variables for Shadcn components if needed, mapped to our system */
+  --input: var(--background-elevated-2);
+  --ring: var(--border-focus);
+  --card: var(--background-elevated);
+  --card-foreground: var(--foreground);
+  --popover: var(--background-elevated-2);
+  --popover-foreground: var(--foreground);
+  --muted: var(--background-elevated-3);
+  --muted-foreground: var(--foreground-secondary);
+  --destructive: var(--error);
+  --destructive-foreground: #FFFFFF;
+}
+
+.dark {
+  /* Since default is dark, we just inherit or repeat just in case */
+  --background: #121212;
+  --foreground: #E3E3E3;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Custom Scrollbar Styles */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.1) transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: background 0.2s ease;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:active {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Scrollbar with gradient effect for premium look */
+.custom-scrollbar-gradient {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(91, 147, 255, 0.3) transparent;
+}
+
+.custom-scrollbar-gradient::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scrollbar-gradient::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  margin: 4px 0;
+}
+
+.custom-scrollbar-gradient::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(91, 147, 255, 0.4) 0%, rgba(91, 147, 255, 0.2) 100%);
+  border-radius: 10px;
+  border: 1px solid rgba(91, 147, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.custom-scrollbar-gradient::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(91, 147, 255, 0.6) 0%, rgba(91, 147, 255, 0.3) 100%);
+  border-color: rgba(91, 147, 255, 0.2);
+}
+
+.custom-scrollbar-gradient::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, rgba(91, 147, 255, 0.8) 0%, rgba(91, 147, 255, 0.4) 100%);
+}

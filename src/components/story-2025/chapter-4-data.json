@@ -1,0 +1,434 @@
+{
+    "_metadata": {
+        "dataSource": "Dubai Land Department (DLD) via data.gov.ae",
+        "period": "2025 (Rankings & Market Share) | 2022-2025 (Trends)",
+        "generatedAt": "2025-01-03",
+        "totalDevelopers2025": 864,
+        "totalVolume2025": "AED 511 Billion",
+        "totalMarketVolume2025": "AED 902 Billion",
+        "notes": "Rankings and market share based on developer-attributed primary sales only (AED 511B). Total market including resales: AED 902B.",
+        "methodology": "Developer sales tracked via project registration in DLD transactions. Excludes secondary market resales and private transactions."
+    },
+    "topDevelopers": [
+        {
+            "rank": 1,
+            "name": "Emaar Properties",
+            "logo": "/images/developer_logo/Emaar_logo.webp",
+            "projects": 128,
+            "areas": 12,
+            "tagline": "The architect of modern Dubai",
+            "essence": "Market Leader",
+            "value": 70930000000,
+            "marketShare": 13.9,
+            "featuredProjects": [
+                "Dubai Hills Estate",
+                "Dubai Creek Harbour",
+                "Downtown Dubai"
+            ],
+            "tier": 1
+        },
+        {
+            "rank": 2,
+            "name": "Sobha Realty",
+            "logo": "/images/developer_logo/Sobha.webp",
+            "projects": 34,
+            "areas": 10,
+            "tagline": "The art of detail",
+            "essence": "Quality Leader",
+            "value": 27810000000,
+            "marketShare": 5.4,
+            "featuredProjects": [
+                "Sobha Hartland",
+                "Sobha One",
+                "Sobha SeaHaven"
+            ],
+            "tier": 1
+        },
+        {
+            "rank": 3,
+            "name": "Binghatti Developers",
+            "logo": "/images/developer_logo/binghatti-logo.webp",
+            "projects": 61,
+            "areas": 11,
+            "tagline": "Hyper-properties",
+            "essence": "Volume Champion",
+            "value": 27710000000,
+            "marketShare": 5.4,
+            "featuredProjects": [
+                "Burj Binghatti",
+                "Mercedes-Benz Places",
+                "Binghatti Ghost"
+            ],
+            "tier": 1
+        },
+        {
+            "rank": 4,
+            "name": "DAMAC Properties",
+            "logo": "/images/developer_logo/damac.webp",
+            "projects": 80,
+            "areas": 9,
+            "tagline": "Luxury at scale",
+            "essence": "Fastest Growing",
+            "value": 23820000000,
+            "marketShare": 4.7,
+            "featuredProjects": [
+                "DAMAC Hills",
+                "DAMAC Lagoons",
+                "Cavalli Tower"
+            ],
+            "tier": 1
+        },
+        {
+            "rank": 5,
+            "name": "Nakheel",
+            "logo": "/images/developer_logo/Nakheel_logo.webp",
+            "projects": 11,
+            "areas": 1,
+            "tagline": "Shaping the shoreline",
+            "essence": "Coastal Specialist",
+            "value": 14910000000,
+            "marketShare": 2.9,
+            "featuredProjects": [
+                "Palm Jebel Ali",
+                "Palm Jumeirah",
+                "Deira Islands"
+            ],
+            "tier": 1
+        },
+        {
+            "rank": 6,
+            "name": "Danube Properties",
+            "logo": "/images/developer_logo/Danube_Properties.webp",
+            "projects": 38,
+            "areas": 13,
+            "tagline": "Affordable luxury",
+            "essence": "Value Leader",
+            "value": 8420000000,
+            "marketShare": 1.6,
+            "featuredProjects": [
+                "Diamondz",
+                "Elitz",
+                "Bayz"
+            ],
+            "tier": 2
+        },
+        {
+            "rank": 7,
+            "name": "Majid Al Futtaim",
+            "logo": "/images/developer_logo/majid-al-futtaim.webp",
+            "projects": 8,
+            "areas": 2,
+            "tagline": "Creating great moments",
+            "essence": "Lifestyle Developer",
+            "value": 5560000000,
+            "marketShare": 1.1,
+            "featuredProjects": [
+                "Tilal Al Ghaf",
+                "Ghaf Woods"
+            ],
+            "tier": 2
+        },
+        {
+            "rank": 8,
+            "name": "Azizi Developments",
+            "logo": "/images/developer_logo/azizi-logo.webp",
+            "projects": 110,
+            "areas": 13,
+            "tagline": "Beyond expectations",
+            "essence": "Project Volume King",
+            "value": 5540000000,
+            "marketShare": 1.1,
+            "featuredProjects": [
+                "Azizi Venice",
+                "Azizi Riviera",
+                "Azizi Mina"
+            ],
+            "tier": 2
+        },
+        {
+            "rank": 9,
+            "name": "Meraas",
+            "logo": "/images/developer_logo/Meraas-logo.webp",
+            "projects": 18,
+            "areas": 3,
+            "tagline": "Creative spaces",
+            "essence": "Urban Lifestyle",
+            "value": 4800000000,
+            "marketShare": 0.9,
+            "featuredProjects": [
+                "City Walk",
+                "Bluewaters",
+                "La Mer"
+            ],
+            "tier": 2
+        },
+        {
+            "rank": 10,
+            "name": "Ellington Properties",
+            "logo": "/images/developer_logo/Ellington-Logo_Black-2.webp",
+            "projects": 24,
+            "areas": 8,
+            "tagline": "Live by design",
+            "essence": "Design Led",
+            "value": 4200000000,
+            "marketShare": 0.8,
+            "featuredProjects": [
+                "Ellington House",
+                "Belgravia",
+                "The Crestmark"
+            ],
+            "tier": 3
+        }
+    ],
+    "risingStars": [
+        {
+            "name": "DAMAC Properties",
+            "growth": 240,
+            "badge": "Explosive Growth",
+            "description": "3.4x YoY volume increase"
+        },
+        {
+            "name": "Binghatti Developers",
+            "growth": 128,
+            "badge": "Momentum Leader",
+            "description": "2.3x YoY volume increase"
+        },
+        {
+            "name": "Arada Developments",
+            "growth": 112,
+            "badge": "Rising Star",
+            "description": "Sharjah to Dubai expansion"
+        }
+    ],
+    "marketShare": [
+        {
+            "id": "Emaar",
+            "label": "Emaar",
+            "value": 13.9,
+            "color": "#5B93FF"
+        },
+        {
+            "id": "Sobha",
+            "label": "Sobha",
+            "value": 5.4,
+            "color": "#00D9FF"
+        },
+        {
+            "id": "Binghatti",
+            "label": "Binghatti",
+            "value": 5.4,
+            "color": "#A78BFA"
+        },
+        {
+            "id": "DAMAC",
+            "label": "DAMAC",
+            "value": 4.7,
+            "color": "#F472B6"
+        },
+        {
+            "id": "Nakheel",
+            "label": "Nakheel",
+            "value": 2.9,
+            "color": "#34D399"
+        }
+    ],
+    "timeline": [
+        {
+            "quarter": "Q1 2025",
+            "projects": [
+                {
+                    "name": "The Oasis",
+                    "developer": "Emaar",
+                    "value": 9100000000
+                },
+                {
+                    "name": "Palm Jebel Ali Frond D",
+                    "developer": "Nakheel",
+                    "value": 2800000000
+                },
+                {
+                    "name": "Skyvue",
+                    "developer": "Sobha",
+                    "value": 3600000000
+                }
+            ]
+        },
+        {
+            "quarter": "Q2 2025",
+            "projects": [
+                {
+                    "name": "Chelsea Residences",
+                    "developer": "DAMAC",
+                    "value": 2400000000
+                },
+                {
+                    "name": "The Acres 2",
+                    "developer": "Emaar",
+                    "value": 1900000000
+                },
+                {
+                    "name": "Binghatti Flare",
+                    "developer": "Binghatti",
+                    "value": 1200000000
+                }
+            ]
+        },
+        {
+            "quarter": "Q3 2025",
+            "projects": [
+                {
+                    "name": "DAMAC Islands",
+                    "developer": "DAMAC",
+                    "value": 3200000000
+                },
+                {
+                    "name": "Sobha Central",
+                    "developer": "Sobha",
+                    "value": 2100000000
+                },
+                {
+                    "name": "Peninsula Residences",
+                    "developer": "Select Group",
+                    "value": 1800000000
+                }
+            ]
+        },
+        {
+            "quarter": "Q4 2025",
+            "projects": [
+                {
+                    "name": "Grand Polo Club",
+                    "developer": "Emaar",
+                    "value": 2500000000
+                },
+                {
+                    "name": "Nad Al Sheba Gardens",
+                    "developer": "Nakheel",
+                    "value": 1600000000
+                },
+                {
+                    "name": "Jumeirah Asora Bay",
+                    "developer": "Meraas",
+                    "value": 1400000000
+                }
+            ]
+        }
+    ],
+    "areaDominance": [
+        {
+            "id": "Downtown",
+            "data": [
+                {
+                    "developer": "Emaar",
+                    "share": 79
+                },
+                {
+                    "developer": "DAMAC",
+                    "share": 5
+                },
+                {
+                    "developer": "Binghatti",
+                    "share": 8
+                }
+            ]
+        },
+        {
+            "id": "Business Bay",
+            "data": [
+                {
+                    "developer": "DAMAC",
+                    "share": 45
+                },
+                {
+                    "developer": "Binghatti",
+                    "share": 20
+                },
+                {
+                    "developer": "Danube",
+                    "share": 5
+                }
+            ]
+        },
+        {
+            "id": "Dubai Marina",
+            "data": [
+                {
+                    "developer": "Emaar",
+                    "share": 56
+                },
+                {
+                    "developer": "Select",
+                    "share": 15
+                },
+                {
+                    "developer": "DAMAC",
+                    "share": 8
+                }
+            ]
+        },
+        {
+            "id": "Palm Jumeirah",
+            "data": [
+                {
+                    "developer": "Nakheel",
+                    "share": 93
+                },
+                {
+                    "developer": "DAMAC",
+                    "share": 5
+                },
+                {
+                    "developer": "Emaar",
+                    "share": 2
+                }
+            ]
+        },
+        {
+            "id": "JVC",
+            "data": [
+                {
+                    "developer": "Binghatti",
+                    "share": 21
+                },
+                {
+                    "developer": "Danube",
+                    "share": 10
+                },
+                {
+                    "developer": "Azizi",
+                    "share": 8
+                }
+            ]
+        }
+    ],
+    "yearlyTrends": [
+        {
+            "year": 2022,
+            "totalVolume": 265000000000,
+            "transactions": 94196,
+            "topDeveloper": "Emaar",
+            "topDeveloperShare": 15.2
+        },
+        {
+            "year": 2023,
+            "totalVolume": 318000000000,
+            "transactions": 133354,
+            "topDeveloper": "Emaar",
+            "topDeveloperShare": 14.1
+        },
+        {
+            "year": 2024,
+            "totalVolume": 412000000000,
+            "transactions": 190796,
+            "topDeveloper": "Emaar",
+            "topDeveloperShare": 13.8
+        },
+        {
+            "year": 2025,
+            "totalVolume": 511000000000,
+            "transactions": 220258,
+            "topDeveloper": "Emaar",
+            "topDeveloperShare": 13.9
+        }
+    ]
+}

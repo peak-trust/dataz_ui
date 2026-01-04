@@ -1,0 +1,269 @@
+"use client";
+
+import * as React from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
+import { useGsap, easingPresets } from "@/lib/hooks/useGsap";
+import { SequenceCounter } from "@/components/story-2025/data-counter";
+import { ChevronDown, BarChart3, Image as ImageIcon } from "lucide-react";
+
+// Image options
+const IMAGES = [
+    { id: 'original', name: 'Original PNG', src: "/images/dubai_skyline.png" },
+    { id: 'gemini', name: 'Gemini Generated', src: "/images/Gemini_Generated_Image_xpe1rnxpe1rnxpe1.png" },
+    { id: 'vector1', name: 'Vectorized (1)', src: "/images/vectorized-image (1).svg" },
+    { id: 'vector2', name: 'Vectorized (Current)', src: "/images/vectorized-image.svg" },
+    { id: 'adobe', name: 'Adobe Vector', src: "/images/adobe-vector.svg" },
+];
+
+// Floating particle data
+const particles = Array.from({ length: 30 }, (_, i) => ({
+    id: i,
+    x: Math.random() * 100,
+    y: Math.random() * 100,
+    size: Math.random() * 3 + 1,
+    duration: Math.random() * 20 + 10,
+    delay: Math.random() * 5,
+}));
+
+export default function HeroTestPage() {
+    const [selectedImage, setSelectedImage] = React.useState(IMAGES[0].src);
+    const containerRef = React.useRef<HTMLDivElement>(null);
+    const titleRef = React.useRef<HTMLHeadingElement>(null);
+    const badgeRef = React.useRef<HTMLDivElement>(null);
+    const subtitleRef = React.useRef<HTMLParagraphElement>(null);
+    const counterRef = React.useRef<HTMLDivElement>(null);
+    const underlineRef = React.useRef<HTMLSpanElement>(null);
+
+    const { scrollY } = useScroll();
+
+    // Parallax effect for background
+    const backgroundY = useTransform(scrollY, [0, 500], [0, 150]);
+    // Modified opacity to stay visible as per recent request
+    const opacity = useTransform(scrollY, [0, 400], [1, 1]);
+
+    const counterItems = [
+        { value: 35042714, label: "data points analyzed", suffix: "" },
+        { value: 1626697, label: "transactions recorded", suffix: "" },
+        { value: 9500000, label: "rental contracts tracked", suffix: "+" },
+    ];
+
+    // GSAP Master Timeline
+    useGsap((gsap) => {
+        if (!titleRef.current) return;
+
+        const masterTl = gsap.timeline({ delay: 0.3 });
+
+        // Phase 1: Image Fade In
+        masterTl.from(".skyline-image", {
+            opacity: 0,
+            y: 50,
+            duration: 1.5,
+            ease: "power2.out"
+        });
+
+        // Phase 5: Text content reveals
+        if (badgeRef.current) {
+            masterTl.from(badgeRef.current, {
+                opacity: 0,
+                y: 30,
+                duration: 0.8,
+                ease: easingPresets.smooth,
+            }, "-=0.8");
+        }
+
+        if (titleRef.current) {
+            const titleWords = titleRef.current.querySelectorAll(".title-word");
+            masterTl.from(titleWords, {
+                opacity: 0,
+                y: 50,
+                rotationX: -90,
+                duration: 1,
+                stagger: 0.15,
+                ease: easingPresets.bouncy,
+            }, "-=0.5");
+        }
+
+        if (underlineRef.current) {
+            masterTl.from(underlineRef.current, {
+                scaleX: 0,
+                transformOrigin: "left",
+                duration: 0.8,
+                ease: easingPresets.expo,
+            }, "-=0.4");
+        }
+
+        if (subtitleRef.current) {
+            masterTl.from(subtitleRef.current, {
+                opacity: 0,
+                y: 20,
+                duration: 0.8,
+                ease: easingPresets.smooth,
+            }, "-=0.3");
+        }
+
+        if (counterRef.current) {
+            masterTl.from(counterRef.current, {
+                opacity: 0,
+                y: 30,
+                duration: 0.8,
+                ease: easingPresets.smooth,
+            }, "-=0.5");
+        }
+    }, [selectedImage]); // Re-run animation when image changes if desired, but image fade-in is targeted by class
+
+    return (
+        <main className="relative bg-[#0f0f23] text-white min-h-screen">
+            {/* Image Switcher Control Panel */}
+            <div className="fixed top-4 right-4 z-50 bg-black/80 backdrop-blur-md p-4 rounded-xl border border-white/10 shadow-2xl">
+                <div className="flex items-center gap-2 mb-3 text-sm font-semibold text-white/90">
+                    <ImageIcon className="w-4 h-4" />
+                    <span>Select Hero Image</span>
+                </div>
+                <div className="flex flex-col gap-2">
+                    {IMAGES.map((img) => (
+                        <button
+                            key={img.id}
+                            onClick={() => setSelectedImage(img.src)}
+                            className={`px-3 py-2 rounded-lg text-xs text-left transition-all ${selectedImage === img.src
+                                ? "bg-primary text-white shadow-lg shadow-primary/25 font-medium"
+                                : "bg-white/5 text-white/70 hover:bg-white/10 hover:text-white"
+                                }`}
+                        >
+                            {img.name}
+                        </button>
+                    ))}
+                </div>
+            </div>
+
+            <section
+                ref={containerRef}
+                className="relative min-h-screen flex flex-col items-center pt-32 overflow-hidden"
+            >
+                {/* Animated gradient background */}
+                <motion.div
+                    style={{ y: backgroundY }}
+                    className="absolute inset-0 -z-10"
+                >
+                    <div className="absolute inset-0 bg-gradient-to-b from-[#1a1a2e] via-[#16213e] to-[#0f0f23]" />
+
+                    <motion.div
+                        animate={{ x: [0, 100, 0], y: [0, -50, 0] }}
+                        transition={{ duration: 20, repeat: Infinity, ease: "easeInOut" }}
+                        className="absolute top-[10%] left-[10%] w-[40%] h-[40%] bg-gradient-to-br from-orange-500/10 via-pink-500/5 to-transparent rounded-full blur-[100px]"
+                    />
+                    <motion.div
+                        animate={{ x: [0, -80, 0], y: [0, 60, 0] }}
+                        transition={{ duration: 25, repeat: Infinity, ease: "easeInOut" }}
+                        className="absolute top-[30%] right-[5%] w-[35%] h-[35%] bg-gradient-to-bl from-blue-500/10 via-purple-500/5 to-transparent rounded-full blur-[100px]"
+                    />
+                    <motion.div
+                        animate={{ x: [0, 50, 0], y: [0, -30, 0] }}
+                        transition={{ duration: 18, repeat: Infinity, ease: "easeInOut" }}
+                        className="absolute bottom-[20%] left-[30%] w-[30%] h-[30%] bg-gradient-to-tr from-cyan-500/10 via-teal-500/5 to-transparent rounded-full blur-[100px]"
+                    />
+                </motion.div>
+
+                {/* Particles */}
+                <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                    {particles.map((particle) => (
+                        <motion.div
+                            key={particle.id}
+                            initial={{ x: `${particle.x}%`, y: `${particle.y}%`, opacity: 0 }}
+                            animate={{
+                                y: [`${particle.y}%`, `${particle.y - 30}%`, `${particle.y}%`],
+                                opacity: [0, 0.6, 0],
+                            }}
+                            transition={{
+                                duration: particle.duration,
+                                delay: particle.delay,
+                                repeat: Infinity,
+                                ease: "easeInOut",
+                            }}
+                            className="absolute rounded-full bg-primary/60"
+                            style={{
+                                width: particle.size,
+                                height: particle.size,
+                                left: `${particle.x}%`,
+                            }}
+                        />
+                    ))}
+                </div>
+
+                {/* Hero Image */}
+                <motion.div
+                    style={{ opacity }}
+                    className="absolute bottom-0 left-0 right-0 h-[50vh] flex items-end justify-center pointer-events-none"
+                >
+                    <div className="relative w-full h-full max-w-[2000px] mx-auto">
+                        <img
+                            key={selectedImage}
+                            src={selectedImage}
+                            alt="Dubai Skyline"
+                            className="skyline-image w-full h-full object-contain object-bottom opacity-80"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-[#0f0f23] via-transparent to-transparent opacity-50" />
+                    </div>
+                </motion.div>
+
+                {/* Content */}
+                <motion.div
+                    style={{ opacity }}
+                    className="relative z-10 text-center px-4 max-w-5xl mx-auto"
+                >
+                    <div ref={badgeRef} className="inline-flex items-center gap-2 mb-6">
+                        <span className="px-4 py-1.5 rounded-full bg-primary/20 border border-primary/30 text-primary text-sm font-medium backdrop-blur-sm flex items-center gap-2">
+                            <BarChart3 className="w-4 h-4" /> Real Estate Story
+                        </span>
+                    </div>
+
+                    <h1
+                        ref={titleRef}
+                        className="text-5xl md:text-7xl lg:text-8xl font-bold mb-4"
+                        style={{ perspective: "1000px" }}
+                    >
+                        <span className="title-word inline-block bg-clip-text text-transparent bg-gradient-to-r from-white via-white to-white/60">
+                            Dubai
+                        </span>
+                        <br />
+                        <span className="relative inline-block">
+                            <span className="title-word inline-block bg-clip-text text-transparent bg-gradient-to-r from-primary via-primary-light to-cyan-400">
+                                2025
+                            </span>
+                            <span
+                                ref={underlineRef}
+                                className="absolute -bottom-2 left-0 right-0 h-1 bg-gradient-to-r from-primary to-cyan-400 rounded-full"
+                            />
+                        </span>
+                    </h1>
+
+                    <p
+                        ref={subtitleRef}
+                        className="text-xl md:text-2xl text-foreground-secondary mb-12 max-w-2xl mx-auto"
+                    >
+                        The Year Dubai&apos;s Real Estate Told Its Story
+                    </p>
+
+                    <div ref={counterRef}>
+                        <SequenceCounter items={counterItems} />
+                    </div>
+                </motion.div>
+
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 3, duration: 1 }}
+                    className="absolute bottom-8 left-1/2 -translate-x-1/2"
+                >
+                    <motion.div
+                        animate={{ y: [0, 10, 0] }}
+                        transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
+                        className="flex flex-col items-center gap-2 text-foreground-secondary"
+                    >
+                        <span className="text-sm uppercase tracking-widest">Scroll to Explore</span>
+                        <ChevronDown className="w-6 h-6" />
+                    </motion.div>
+                </motion.div>
+            </section>
+        </main>
+    );
+}
