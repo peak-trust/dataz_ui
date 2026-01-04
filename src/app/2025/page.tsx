@@ -16,6 +16,8 @@ import { motion } from "framer-motion";
 import { ChevronUp } from "lucide-react";
 import { useState, useEffect } from "react";
 
+export const dynamic = "force-static";
+
 export default function Story2025Page() {
     const [showScrollTop, setShowScrollTop] = useState(false);
 
