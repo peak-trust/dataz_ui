@@ -1,5 +1,3 @@
-"use client";
-
 import {
     HeroSection,
     ChapterHeartbeat,
@@ -12,27 +10,11 @@ import {
     ChapterTimeline,
     ChapterPrice,
 } from "@/components/story-2025";
-import { motion } from "framer-motion";
-import { ChevronUp } from "lucide-react";
-import { useState, useEffect } from "react";
+import { ScrollToTop } from "@/components/ui/scroll-to-top";
 
 export const dynamic = "force-static";
 
 export default function Story2025Page() {
-    const [showScrollTop, setShowScrollTop] = useState(false);
-
-    useEffect(() => {
-        const handleScroll = () => {
-            setShowScrollTop(window.scrollY > 500);
-        };
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
-
-    const scrollToTop = () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    };
-
     return (
         <div className="relative min-h-screen bg-background overflow-x-hidden -mt-6">
             {/* Dynamic Background Effects */}
@@ -71,17 +53,7 @@ export default function Story2025Page() {
             <ChapterTimeline />
 
             {/* Scroll to Top Button */}
-            <motion.button
-                initial={{ opacity: 0, scale: 0 }}
-                animate={{
-                    opacity: showScrollTop ? 1 : 0,
-                    scale: showScrollTop ? 1 : 0
-                }}
-                onClick={scrollToTop}
-                className="fixed bottom-8 right-8 z-50 w-12 h-12 rounded-full bg-primary/90 backdrop-blur-sm border border-primary/30 text-white shadow-[0_0_20px_rgba(91,147,255,0.4)] flex items-center justify-center hover:bg-primary transition-colors"
-            >
-                <ChevronUp className="w-6 h-6" />
-            </motion.button>
+            <ScrollToTop />
         </div>
     );
 }
