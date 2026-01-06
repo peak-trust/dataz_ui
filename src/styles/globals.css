@@ -203,6 +203,24 @@
   }
 }
 
+/* Tabular Numbers - uniform width for data alignment */
+.tabular-nums {
+  font-variant-numeric: tabular-nums lining-nums;
+  font-feature-settings: "tnum" 1, "lnum" 1;
+}
+
+/* Slashed zero for clarity in data */
+.slashed-zero {
+  font-variant-numeric: slashed-zero;
+  font-feature-settings: "zero" 1;
+}
+
+/* Combined data typography - ideal for tables */
+.data-text {
+  font-variant-numeric: tabular-nums lining-nums slashed-zero;
+  font-feature-settings: "tnum" 1, "lnum" 1, "zero" 1;
+}
+
 /* Custom Scrollbar Styles */
 .custom-scrollbar {
   scrollbar-width: thin;
